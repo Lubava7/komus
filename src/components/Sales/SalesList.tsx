@@ -18,7 +18,7 @@ const SalesList: FC<Props> = ({
     <div>
       SALE LIST
       <div>
-        {filteredSales.length ? (
+        {filteredSales?.length ? (
           filteredSales?.map((el: any) => (
             <SaleCard
               key={el.id}
