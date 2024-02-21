@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/komus/static/css/main.f855e6bc.css",
-    "main.js": "/komus/static/js/main.e258e9c9.js",
+    "main.js": "/komus/static/js/main.469ab4bb.js",
     "static/js/528.b89174a4.chunk.js": "/komus/static/js/528.b89174a4.chunk.js",
     "static/js/240.c21f975c.chunk.js": "/komus/static/js/240.c21f975c.chunk.js",
     "static/js/480.7dc3124e.chunk.js": "/komus/static/js/480.7dc3124e.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/history.svg": "/komus/static/media/history.01fb730f14913b9e8be33f0d5cb21221.svg",
     "static/media/cities.svg": "/komus/static/media/cities.4e2626fa510d5b6494e4945013405679.svg",
     "main.f855e6bc.css.map": "/komus/static/css/main.f855e6bc.css.map",
-    "main.e258e9c9.js.map": "/komus/static/js/main.e258e9c9.js.map",
+    "main.469ab4bb.js.map": "/komus/static/js/main.469ab4bb.js.map",
     "528.b89174a4.chunk.js.map": "/komus/static/js/528.b89174a4.chunk.js.map",
     "240.c21f975c.chunk.js.map": "/komus/static/js/240.c21f975c.chunk.js.map",
     "480.7dc3124e.chunk.js.map": "/komus/static/js/480.7dc3124e.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.e258e9c9.js"
+    "static/js/main.469ab4bb.js"
   ]
 }
