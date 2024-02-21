@@ -6,6 +6,7 @@ export const salesArray = [
     sum: 15000,
     targetId: 1,
     kanalId: 1,
+    // regionGroupId: 1, чтобы отображать регион
   },
   {
     id: 2,

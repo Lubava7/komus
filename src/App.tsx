@@ -1,15 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Suspense } from 'react';
 import './App.css';
-import Filters from './components/Filters/Filters';
+import PageLayout from './components/PageLayout/PageLayout';
+import { Route, Routes } from 'react-router-dom';
+import { PrivateRoutes } from './modules/routing';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>ВАСИЛИСА, для того, чтобы увидеть данные в таблице</h1>
-      <h1>выбери только Цель и Канал - данные сразу отобразятся</h1>
-      <Filters />
-    </div>
+    <PageLayout>
+      <Suspense>
+        <Routes>
+          {PrivateRoutes.map((route) => (
+            <Route
+              path={route.path}
+              element={<route.component />}
+              key={route.path}
+            />
+          ))}
+        </Routes>
+      </Suspense>
+    </PageLayout>
   );
 }
 

@@ -1,10 +1,10 @@
 import React, { FC, useState } from 'react';
 
-import { targets } from '../data/target.';
-import { channels } from '../data/kanal_sbyta';
-import { brArr } from '../data/br';
-import { salesArray } from '../data/sales';
-import { regions, cityNames, regionGroups } from '../data/rp';
+import { targets } from '../../modules/data/target.';
+import { channels } from '../../modules/data/kanal_sbyta';
+import { brArr } from '../../modules/data/br';
+import { salesArray } from '../../modules/data/sales';
+import { regions, cityNames, regionGroups } from '../../modules/data/rp';
 
 import { Wrapper, Table } from './styles';
 
@@ -12,7 +12,7 @@ interface Props {
   state?: string;
 }
 
-const Filters: FC<Props> = ({ state }) => {
+const Filters: FC<Props> = () => {
   const [selectedTargets, setSelectedTargets] = useState<number[]>([]);
   const [selectedChannels, setSelectedChannels] = useState<number[]>([]);
   const [selectedCity, setSelectedCity] = useState<number[]>([]);
@@ -43,6 +43,8 @@ const Filters: FC<Props> = ({ state }) => {
 
   return (
     <div>
+      <h1>ВАСИЛИСА, для того, чтобы увидеть данные в таблице</h1>
+      <h1>выбери только Цель и Канал - данные сразу отобразятся</h1>
       <Wrapper>
         <label>Выберите цель акции:</label>
         {targets.map((el) => (
