@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/komus/static/css/main.f855e6bc.css",
-    "main.js": "/komus/static/js/main.00ab530c.js",
+    "main.js": "/komus/static/js/main.0c6c9472.js",
     "static/js/528.b89174a4.chunk.js": "/komus/static/js/528.b89174a4.chunk.js",
-    "static/js/240.c09ac688.chunk.js": "/komus/static/js/240.c09ac688.chunk.js",
-    "static/js/480.7dc3124e.chunk.js": "/komus/static/js/480.7dc3124e.chunk.js",
+    "static/js/240.2e213dc5.chunk.js": "/komus/static/js/240.2e213dc5.chunk.js",
+    "static/js/480.a65f7166.chunk.js": "/komus/static/js/480.a65f7166.chunk.js",
     "static/js/304.b9a3e4c2.chunk.js": "/komus/static/js/304.b9a3e4c2.chunk.js",
     "static/js/196.7a23a9d1.chunk.js": "/komus/static/js/196.7a23a9d1.chunk.js",
     "static/js/380.22c6f085.chunk.js": "/komus/static/js/380.22c6f085.chunk.js",
@@ -18,10 +18,10 @@
     "static/media/history.svg": "/komus/static/media/history.01fb730f14913b9e8be33f0d5cb21221.svg",
     "static/media/cities.svg": "/komus/static/media/cities.4e2626fa510d5b6494e4945013405679.svg",
     "main.f855e6bc.css.map": "/komus/static/css/main.f855e6bc.css.map",
-    "main.00ab530c.js.map": "/komus/static/js/main.00ab530c.js.map",
+    "main.0c6c9472.js.map": "/komus/static/js/main.0c6c9472.js.map",
     "528.b89174a4.chunk.js.map": "/komus/static/js/528.b89174a4.chunk.js.map",
-    "240.c09ac688.chunk.js.map": "/komus/static/js/240.c09ac688.chunk.js.map",
-    "480.7dc3124e.chunk.js.map": "/komus/static/js/480.7dc3124e.chunk.js.map",
+    "240.2e213dc5.chunk.js.map": "/komus/static/js/240.2e213dc5.chunk.js.map",
+    "480.a65f7166.chunk.js.map": "/komus/static/js/480.a65f7166.chunk.js.map",
     "304.b9a3e4c2.chunk.js.map": "/komus/static/js/304.b9a3e4c2.chunk.js.map",
     "196.7a23a9d1.chunk.js.map": "/komus/static/js/196.7a23a9d1.chunk.js.map",
     "380.22c6f085.chunk.js.map": "/komus/static/js/380.22c6f085.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.00ab530c.js"
+    "static/js/main.0c6c9472.js"
   ]
 }
