@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkomus=self.webpackChunkkomus||[]).push([[304],{7304:(s,e,t)=>{t.r(e),t.d(e,{default:()=>k});t(9060);var u=t(2496);const k=s=>{let{state:e}=s;return(0,u.jsx)("div",{children:"CityList"})}}}]);
+//# sourceMappingURL=304.b9a3e4c2.chunk.js.map

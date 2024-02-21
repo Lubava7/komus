@@ -28,4 +28,8 @@ export const PrivateRoutes: Route[] = [
     path: path.support,
     component: page.support,
   },
+  {
+    path: path.history,
+    component: page.history,
+  },
 ];

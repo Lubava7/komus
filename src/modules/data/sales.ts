@@ -1,3 +1,12 @@
+export interface SaleInterface {
+  id: Number;
+  title: String;
+  gift: String;
+  sum: Number;
+  targetId: Number;
+  kanalId: number;
+}
+
 export const salesArray = [
   {
     id: 1,

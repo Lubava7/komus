@@ -14,6 +14,14 @@ import MailIcon from '@mui/icons-material/Mail';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
+// import { Sales, History, Support, Cities, Main, Search } from 'src/ui/icons';
+import { ReactComponent as History } from 'src/ui/icons/history.svg';
+import { ReactComponent as Sales } from 'src/ui/icons/sales.svg';
+import { ReactComponent as Support } from 'src/ui/icons/support.svg';
+import { ReactComponent as Cities } from 'src/ui/icons/cities.svg';
+import { ReactComponent as Main } from 'src/ui/icons/main.svg';
+import { ReactComponent as Search } from 'src/ui/icons/search.svg';
+
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
 
 const MenuDrawer = () => {
@@ -40,21 +48,31 @@ const MenuDrawer = () => {
         id: 1,
         text: 'Главная',
         path: '/',
+        icon: <Main />,
       },
       {
         id: 2,
         text: 'Поиск по акциям',
         path: '/filters',
+        icon: <Search />,
       },
       {
         id: 3,
         text: 'Список акций',
         path: '/sales',
+        icon: <Sales />,
       },
       {
         id: 4,
         text: 'Список городов',
         path: '/cities',
+        icon: <Cities />,
+      },
+      {
+        id: 4,
+        text: 'История поиска',
+        path: '/history',
+        icon: <History />,
       },
     ],
     []
@@ -66,6 +84,7 @@ const MenuDrawer = () => {
         id: 5,
         text: 'Тех. поддержка',
         path: '/support',
+        icon: <Support />,
       },
     ],
     []
@@ -100,12 +119,10 @@ const MenuDrawer = () => {
           onKeyDown={toggleDrawer('left', false)}
         >
           <List>
-            {content.map((item, index) => (
+            {content.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton>
-                  <ListItemIcon>
-                    {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                  </ListItemIcon>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
                   <Link sx={styles} component={RouterLink} to={item.path}>
                     <ListItemText> {item.text}</ListItemText>
                   </Link>
@@ -118,9 +135,7 @@ const MenuDrawer = () => {
             {support.map((item, index) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton>
-                  <ListItemIcon>
-                    {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                  </ListItemIcon>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
                   <Link sx={styles} component={RouterLink} to={item.path}>
                     <ListItemText> {item.text}</ListItemText>
                   </Link>

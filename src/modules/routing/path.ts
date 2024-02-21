@@ -4,4 +4,5 @@ export default {
   sales: '/sales',
   cities: '/cities',
   support: '/support',
+  history: '/history',
 } as const;
